@@ -44,7 +44,7 @@ async def send_screenshot(message: types.Message):
                 "temp", str(datetime.now()) + "_screenshot.png"
             )
 
-            await make_screenshot(url, file_path)  # Make scrrenshot.
+            await make_screenshot(url, file_path)  # Make screenshot.
 
             # await message.answer_photo(  # Send screenshot like photo
             #     open(file_path, "rb")    # (bad image quality)
